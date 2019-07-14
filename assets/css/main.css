@@ -1153,6 +1153,7 @@ input, select, textarea {
 				flex-direction: column;
 			}
 
+
 				.panel > .inner.split > div {
 					margin-left: 0;
 					width: 100%;
@@ -1170,7 +1171,10 @@ input, select, textarea {
 				padding: 4em 2em 2em 2em ;
 				bottom: auto;
 				top: calc(4em - 1px);
+
 			}
+
+
 
 				.panel.active {
 					-moz-transform: translateY(0);
@@ -1340,6 +1344,8 @@ input, select, textarea {
 			.poptrox-popup .nav-next {
 				background-size: 4em;
 			}
+
+
 
 		}
 
@@ -1565,6 +1571,7 @@ input, select, textarea {
 			height: 4em;
 			padding: 0 1em;
 			top: 0;
+			display: block !important;
 		}
 
 			body.is-preload #header {
@@ -1882,6 +1889,18 @@ input, select, textarea {
 				width: 50%;
 			}
 
+				#header {
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			bottom: auto;
+			height: 4em;
+			padding: 0 1em;
+			top: 0;
+			display: block !important;
+		}
+
 				#main .thumb:nth-child(1) {
 					-moz-transition-delay: 0.65s;
 					-webkit-transition-delay: 0.65s;
@@ -2075,6 +2094,10 @@ input, select, textarea {
 	transform: translate(5%,-2%); 
 
 }	
+
+#header{
+	display:none;
+}
 
 
 
