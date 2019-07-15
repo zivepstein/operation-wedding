@@ -2121,3 +2121,13 @@ input, select, textarea {
 
 
 
+
+.blue{
+	top:0;
+	height:100vh;
+	width: 100vw;
+	position:fixed;
+	z-index: 10;
+	background-color: #e7eef1;
+	opacity: 0.2;
+}	
