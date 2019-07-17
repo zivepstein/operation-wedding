@@ -1828,8 +1828,10 @@ input, select, textarea {
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
 				height: calc(40vh - 2em);
+				height: calc(33vh - 2em);
 				min-height: 20em;
 				width: 20%;
+				width: 16.66666%;
 			}
 
 				#main .thumb:nth-child(1) {
@@ -2129,6 +2131,10 @@ input, select, textarea {
 	position:fixed;
 	z-index: 10;
 	background-color: #e7eef1;
+<<<<<<< HEAD
 	opacity: 0.2;
     display: none;
+=======
+	opacity: 0.15;
+>>>>>>> f7f9c8ae93c6cdbc31c5ef32aa107e50e3ac724a
 }	
