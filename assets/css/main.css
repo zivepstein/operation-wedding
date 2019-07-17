@@ -1828,10 +1828,15 @@ input, select, textarea {
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
 				height: calc(40vh - 2em);
+<<<<<<< HEAD
 				height: calc(33vh - 2em);
 				min-height: 20em;
 				width: 20%;
 				width: 16.66666%;
+=======
+				min-height: 20em;
+				width: 20%;
+>>>>>>> parent of f7f9c8a... more tweaks
 			}
 
 				#main .thumb:nth-child(1) {
