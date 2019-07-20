@@ -1513,7 +1513,7 @@ input, select, textarea {
 				}
 
 		#header nav {
-			position: absolute;
+			position: fixed !important;
 			right: 0;
 			top: 0;
 		}
