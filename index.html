@@ -114,17 +114,17 @@
 							<div>
 								<section>
 									<h1>RSVP</h1>
-									<form method="post" action="#">
+									<form name="submit-to-google-sheet">
 										<div class="fields">
 											<div class="field half">
-												<input type="text" name="fname" id="fname" placeholder="First Name" />
+												<input type="text" name="firstName" placeholder="First Name" />
 											</div>
 											<div class="field half">
-												<input type="text" name="lname" id="lname" placeholder="Last Name" />
+												<input type="text" name="lastName" placeholder="Last Name" />
 											</div>
 
 											<div class="field half">
-												<select name="food">
+												<select name="foodOption">
 													  <option value="csteak">Cauliflower Steak</option>
 													  <option value="ytof">Yerba Tofu</option>
 													  <option value="pizz">Deconstructed Pizza</option>
@@ -132,7 +132,7 @@
 													</select>
 											</div>
 											<div class="field half">
-												<input type="text" name="music" id="music" placeholder="Song Request" />
+												<input type="text" name="songRequest" placeholder="Song Request" />
 											</div>
 
 										</div>
@@ -149,6 +149,17 @@
 			</div>
 
 		<!-- Scripts -->
+			<script>
+			  const scriptURL = 'https://script.google.com/macros/s/AKfycbyQgl-zmy3T1oBbL-Rkp10jwwirtFNnOtvyu0lIDOuP76deb9iJ/exec'
+			  const form = document.forms['submit-to-google-sheet']
+
+			  form.addEventListener('submit', e => {
+			    e.preventDefault()
+			    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+			      .then(response => console.log('Success!', response))
+			      .catch(error => console.error('Error!', error.message))
+			  })
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

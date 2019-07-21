@@ -1910,9 +1910,9 @@ input, select, textarea {
 				-webkit-transition-delay: 1.625s;
 				-ms-transition-delay: 1.625s;
 				transition-delay: 1.625s;
-				height: calc(40vh - 2em);
+				height: calc(20vh - 2em);
 				min-height: 20em;
-				width: 50%;
+				width: 20%;
 			}
 
 				#header {
