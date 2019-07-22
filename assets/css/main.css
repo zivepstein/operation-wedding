@@ -1539,7 +1539,7 @@ input, select, textarea {
 						display: inline-block;
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
-						font-size: 200% !important;
+						font-size: 180% !important;
 					}
 
 						#header nav > ul > li a.icon:before {
@@ -1821,24 +1821,17 @@ input, select, textarea {
 				transition-delay: 2.3s;
 			}
 
-		/* @media screen and (max-width: 1680px) {
+		 @media screen and (max-width: 1680px) {
 
 			#main .thumb {
 				-moz-transition-delay: 2.075s;
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(40vh - 2em);
-<<<<<<< HEAD
-				height: calc(33vh - 2em);
+				height: calc(20vh - 2em);
 				min-height: 20em;
-				width: 20%;
 				width: 16.66666%;
-=======
-				min-height: 20em;
-				width: 20%;
->>>>>>> parent of f7f9c8a... more tweaks
-			} */
+			} 
 
 				#main .thumb:nth-child(1) {
 					-moz-transition-delay: 0.65s;
@@ -1910,7 +1903,7 @@ input, select, textarea {
 				-webkit-transition-delay: 1.625s;
 				-ms-transition-delay: 1.625s;
 				transition-delay: 1.625s;
-				height: calc(20vh - 2em);
+				height: calc(33vh - 2em);
 				min-height: 20em;
 				width: 20%;
 			}
@@ -2095,6 +2088,7 @@ input, select, textarea {
 		}
 
 .splash{
+	top:20%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	position:fixed;
@@ -2135,6 +2129,4 @@ input, select, textarea {
 	z-index: 10;
 	background-color: #e7eef1;
 	opacity: 0.2;
-    display: none;
-	opacity: 0.15;
 }
