@@ -1732,7 +1732,7 @@ input, select, textarea {
 			-webkit-transition-delay: 2.525s;
 			-ms-transition-delay: 2.525s;
 			transition-delay: 2.525s;
-			height: calc(40vh - 2em);
+			height: calc(33vh - 2em);
 			min-height: 20em;
 			width: 25%;
 		}
@@ -1828,7 +1828,7 @@ input, select, textarea {
 				-webkit-transition-delay: 2.075s;
 				-ms-transition-delay: 2.075s;
 				transition-delay: 2.075s;
-				height: calc(20vh - 2em);
+				height: calc(33vh - 2em);
 				min-height: 20em;
 				width: 16.66666%;
 			} 
@@ -1904,7 +1904,7 @@ input, select, textarea {
 				-ms-transition-delay: 1.625s;
 				transition-delay: 1.625s;
 				height: calc(33vh - 2em);
-				min-height: 20em;
+				min-height: 35vh;
 				width: 20%;
 			}
 
@@ -1965,6 +1965,15 @@ input, select, textarea {
 
 
 		@media screen and (max-width: 980px) {
+
+			.splash{
+				top:30% !important;
+
+			}
+
+			.panel{
+				max-height: calc(90vh - 4em);
+			}
 
 			#main .thumb {
 				-moz-transition-delay: 2.075s;
@@ -2088,7 +2097,7 @@ input, select, textarea {
 		}
 
 .splash{
-	top:20%;
+	top:8.2%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	position:fixed;
