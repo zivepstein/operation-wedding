@@ -1066,7 +1066,7 @@ input, select, textarea {
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		background: rgba(231, 238, 241, 0.975);
-		bottom: 4em;
+		top: 23vh;
 		left: 0;
 		max-height: calc(80vh - 4em);
 		overflow-y: auto;
@@ -1074,6 +1074,8 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10001;
 	}
+
+
 
 		.panel.active {
 			-moz-transform: translateY(1px);
@@ -1163,16 +1165,17 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.panel {
+			/*.panel {
 				-moz-transform: translateY(-100vh);
 				-webkit-transform: translateY(-100vh);
 				-ms-transform: translateY(-100vh);
 				transform: translateY(-100vh);
 				padding: 4em 2em 2em 2em ;
-				bottom: auto;
+				bottom: auto !important;
+				top:4em !important;
 				top: calc(4em - 1px);
 
-			}
+			}*/
 
 
 
