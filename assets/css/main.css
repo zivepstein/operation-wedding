@@ -1075,6 +1075,13 @@ input, select, textarea {
 		z-index: 10001;
 	}
 
+	.LA{
+		top: 9vh !important;
+		left: 0;
+		max-height: calc(100vh - 4em)!important;
+	}
+
+	
 
 
 		.panel.active {
@@ -1970,7 +1977,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.splash{
-				top:30% !important;
+				top:40% !important;
 
 			}
 
